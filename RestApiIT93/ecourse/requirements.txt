@@ -1,0 +1,7 @@
+asgiref==3.5.0
+Django==4.0.2
+Pillow==9.0.1
+PyMySQL==1.0.2
+sqlparse==0.4.2
+tzdata==2021.5
+django-ckeditor=6.2.0

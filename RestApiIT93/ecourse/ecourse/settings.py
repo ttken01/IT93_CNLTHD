@@ -38,7 +38,18 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'courses.apps.CoursesConfig',
+    'ckeditor',
+    'ckeditor_uploader'
+
 ]
+
+
+#Cấu hình nơi uploads hình ảnh. Nếu có thêm tệp hình ảnh thì thêm vào
+CKEDITOR_UPLOAD_PATH = "images/lessons/"
+#Cấu hình media_root : Thiết lập tập tin thư mục để upload ảnh lên.
+MEDIA_ROOT = '%s/courses/static/' % BASE_DIR
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
