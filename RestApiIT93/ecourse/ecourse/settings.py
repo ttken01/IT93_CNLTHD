@@ -39,11 +39,17 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'courses.apps.CoursesConfig',
     'ckeditor',
-    'ckeditor_uploader'
-
+    'ckeditor_uploader',
+    'rest_framework',
+    'drf_yasg',
+    'debug_toolbar',
 ]
 
 
+
+#Cấu hình debug toolbar
+STATIC_URL = '/static/'
+INTERNAL_IPS = ['127.0.0.1']
 #Cấu hình nơi uploads hình ảnh. Nếu có thêm tệp hình ảnh thì thêm vào
 CKEDITOR_UPLOAD_PATH = "images/lessons/"
 #Cấu hình media_root : Thiết lập tập tin thư mục để upload ảnh lên.
@@ -59,6 +65,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'ecourse.urls'

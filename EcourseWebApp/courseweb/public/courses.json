@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "subject": "Nhap mon CNPM",
+        "image": "https://res.cloudinary.com/dxxwcby8l/image/upload/v1647930931/laoxgo0d5zx1jnwxbyqr.jpg",
+        "category_id": 1
+    },
+    {
+        "id": 2,
+        "subject": "Kiem thu phan mem",
+        "image": "https://res.cloudinary.com/dxxwcby8l/image/upload/v1647930931/laoxgo0d5zx1jnwxbyqr.jpg",
+        "category_id": 1
+    },
+    {
+        "id": 2,
+        "subject": "Cong cu phat trien PM",
+        "image": "https://res.cloudinary.com/dxxwcby8l/image/upload/v1647930931/laoxgo0d5zx1jnwxbyqr.jpg",
+        "category_id": 1
+    },
+    {
+        "id": 2,
+        "subject": "Nhap mon tri tue nhan tao",
+        "image": "https://res.cloudinary.com/dxxwcby8l/image/upload/v1647930931/laoxgo0d5zx1jnwxbyqr.jpg",
+        "category_id": 2
+    }
+]
